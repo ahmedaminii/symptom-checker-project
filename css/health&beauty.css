@@ -1,0 +1,816 @@
+*{
+    
+    
+    transition:1s;
+   
+    
+}
+.navbar-brand img
+{
+    width:50px;
+    height:40px;
+}
+.navbar
+{
+    background-color: white;
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:68455;
+}
+.nav-link 
+{
+    color:black;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.nav-link:hover{
+    
+    background-color: #008fd5;
+}
+.navbar-brand
+{
+    color:#008fd5;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand i
+{
+    color:#008fd5;
+}
+.navbar-toggler{
+    
+   outline: none !important ;
+}
+.dropdown-item 
+{
+    color:#fff;
+    background-color: #1f5f8b;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.dropdown-menu
+{
+    background-color: #1f5f8b;
+    border-color: #fff;
+}
+
+
+.dropdown-menu a
+{
+    color: #fff;
+}
+.nav-link:hover
+{
+    color:#eee;
+}
+.dropdown-item:hover
+{
+    background-color: #1f5f8b;
+    color:#fff;
+    background-color: transparent;
+}
+#onepage{
+    
+     background-color: rgb(248, 248, 248);
+
+   
+}
+
+#onepage .container .titlione {
+
+    margin: auto;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    
+}
+#onepage .container .titlione span {
+    
+    color:#1f5f8b ;
+    font-size: 50px;
+    
+}
+
+
+#onepage .container .titlione hr {
+    
+    width:50px;
+    border: solid 1px  rgba(77, 177, 226, 0.9);
+;
+    
+}
+#onepage .container .titlione:hover hr {
+
+width: 80px;
+}
+
+
+#onepage .container .titlione h2 {
+    font-family: 'Poppins', sans-serif;
+
+    color:#008fd5 ;
+    font-size: 40px;
+    font-weight: 600;
+ 
+    
+}
+.imgeone {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    animation-duration:2s;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+
+}
+
+ 
+.imgeone a {
+    
+    padding: 10px 15px;
+    background-color: #1f5f8b ;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid;
+    color: white;
+    margin-top: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.imgeone:hover a{
+    
+        background-color: transparent ;
+    color: black;
+    border-color: #1f5f8b;
+}
+.imgeone h5 {
+    
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#1f5f8b ;
+}
+.imgeone p {
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    font-weight:300;
+}
+
+.imgeone img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+    object-fit: cover;
+}
+.imgeone:hover img  {
+    
+    transform: scale( 1.1,1.1);
+    
+}
+
+#threepage{
+    
+     background-color: rgb(248, 248, 248);
+
+    padding-bottom: 100px;
+}
+
+#threepage .container .titlitwo {
+
+width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+position: relative;
+    padding: 50px;
+}
+#threepage .container .titlitwo span {
+    
+    color:#1f5f8b ;
+    font-size: 50px;
+}
+
+
+#threepage .container .titlitwo hr {
+    
+    width: 8%;
+    border: solid 1px rgba(77, 177, 226, 0.9);
+    
+}
+#threepage .container .titlitwo:hover hr {
+
+width: 13%;
+}
+
+#threepage .container .titlitwo h2 {
+    font-family: 'Poppins', sans-serif;
+
+    color:#008fd5 ;
+    font-size: 40px;
+    font-weight: 600;
+ 
+    
+}
+.imgetwo {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    
+
+}
+
+ 
+.imgetwo a {
+    
+    padding: 10px 15px;
+    background-color: #1f5f8b ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+     border: 1px solid;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.imgetwo:hover a{
+    
+ background-color: transparent ;
+    color: black;
+    border-color: #1f5f8b;}
+.imgetwo h5 {
+    
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#1f5f8b ;
+   
+}
+.imgetwo p {
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    font-weight:300;
+}
+
+.imgetwo img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+        object-fit: cover;
+
+}
+.imgetwo:hover  {
+    
+        transform: scale( 0.9,0.9);
+
+}
+
+#atherpage{
+    
+    background-image: url(../Images/arms-care-check-905874.jpg);
+    background-size: 100% 100%;
+
+}
+#atherpage .container-fluid{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    color:#13c5dd;
+    
+}
+
+
+
+.all {
+    
+    text-align: center;
+}
+
+.all i {
+    
+    
+    font-size: 30px;
+    padding:0px 15px;
+    border-radius: 45%;
+    border-color: cadetblue;
+       color:white;
+
+
+}
+.all i:hover{
+    
+    transform: rotate(360deg);
+    
+}
+.all p {
+        font-family: 'Source Sans Pro', sans-serif;
+
+    font-size: 14px;
+    padding-top:10px;
+    color:white;
+}
+#atherpage .container .titliather {
+
+width: 100%;
+    margin: auto;
+    text-align: center;
+position: relative;
+    padding: 50px;
+}
+#atherpage .container .titliather h2{
+    
+    color:white;
+    font-family: 'Poppins', sans-serif;
+
+}
+#atherpage .container .titliather h2 i {
+    
+   color:white;
+    
+}
+#atherpage .container .titliather hr {
+    
+    width: 5%;
+    border: solid 1px white;
+    
+}
+#atherpage .container .titliather:hover hr {
+
+width: 8%;
+}
+
+#fourpage{
+    
+     background-color: rgb(248, 248, 248);
+
+    padding-bottom: 100px;
+}
+
+#fourpage .container .titlifour {
+
+width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+position: relative;
+    padding: 50px;
+}
+#fourpage .container .titlifour span {
+    
+    color:#1f5f8b ;
+    font-size: 50px;
+    
+}
+
+#fourpage .container .titlifour hr {
+    
+    width: 10px;
+    border: solid 1px rgba(77, 177, 226, 0.9);
+    
+}
+#fourpage .container .titlifour:hover hr {
+
+width: 20%;
+}
+
+#fourpage .container .titlifour h2 {
+    font-family: 'Poppins', sans-serif;
+
+    color:#008fd5 ;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 30px;
+ 
+    
+}
+.imgefour {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    animation-duration: 1s;
+    animation-delay: 0.2;
+    animation-iteration-count: 1;
+
+}
+
+ 
+.imgefour a {
+    
+    padding: 10px 15px;
+    background-color: #1f5f8b ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+        border: 1px solid;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+    
+}
+
+.imgefour:hover a{
+    
+ background-color: transparent ;
+    color: black;
+    border-color: #1f5f8b;}
+.imgefour h5 {
+    
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#1f5f8b ;
+    
+}
+.imgefour p {
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    font-weight:300;
+}
+
+.imgefour img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+        object-fit: cover;
+
+    }
+.imgefour:hover  {
+    
+    transform: scale( 1.1,1.1);
+}
+#fivepage{
+    
+     background-color: rgb(248, 248, 248);
+
+    padding-bottom: 100px;
+}
+
+#fivepage .container .titlifive {
+
+width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+position: relative;
+    padding: 50px;
+}
+
+
+#fivepage .container .titlifive hr {
+    
+    width: 50px;
+    border: solid 1px rgba(77, 177, 226, 0.9);
+    
+}
+#fivepage .container .titlifive:hover hr {
+
+width: 80px;
+}
+
+#fivepage .container .titlifive h2 {
+    font-family: 'Poppins', sans-serif;
+
+    color:#008fd5 ;
+    font-size: 40px;
+    font-weight: 600;
+    margin-left: 30px;
+ 
+    
+}
+#fivepage .container .titlifive h2 i {
+    
+    color:#1f5f8b ;
+    font-size:50px;
+    
+}
+.imgefive {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+ 
+.imgefive a {
+    
+    padding: 10px 15px;
+    background-color: #1f5f8b ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+        border: 1px solid;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.imgefive:hover a{
+    
+ background-color: transparent ;
+    color: black;
+    border-color: #1f5f8b;}
+.imgefive h5 {
+    
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#1f5f8b ;
+    
+}
+.imgefive p {
+    padding-bottom: 10px;
+    padding-top:10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    font-weight:300;
+}
+
+.imgefive img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+        object-fit: cover;
+
+    
+}
+.imgefive:hover  {
+    
+    transform: scale( 0.9,0.9);
+}
+#sixepage{
+    
+     background-color: rgb(248, 248, 248);
+
+    padding-bottom: 100px;
+}
+
+#sixepage .container .titlisix {
+
+width: 100%;
+    margin: auto;
+    text-align: center;
+    padding-bottom: 50px;
+position: relative;
+    padding: 40px;
+}
+
+
+#sixepage .container .titlisix hr {
+    
+    width: 5%;
+    border: solid 1px rgba(77, 177, 226, 0.9);
+    
+}
+#sixepage .container .titlisix:hover hr {
+
+width: 9%;
+}
+
+
+#sixepage .container .titlisix h2 {
+    font-family: 'Poppins', sans-serif;
+
+    color:#008fd5 ;
+    font-size: 40px;
+    font-weight: 600;
+ 
+    
+}
+#sixepage .container .titlisix h2 i {
+    color:#1f5f8b ;
+    font-size: 40px;
+    
+}
+.imgesix {
+    
+    text-align: center;
+    background-color: white;
+    padding: 30px 20px;
+    overflow: hidden;
+    border-radius: 10px;
+    animation-duration: 1s;
+    animation-delay: 0.2;
+    animation-iteration-count: 1;
+
+}
+
+ 
+.imgesix a {
+    
+    padding: 10px 15px;
+    background-color: #1f5f8b ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-top: 3px;
+        border: 1px solid;
+
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.imgesix:hover a{
+    
+    
+ background-color: transparent ;
+    color: black;
+    border-color: #1f5f8b;}
+.imgesix h5 {
+    
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-size:20px;
+    font-weight:600;
+    color:#1f5f8b ;
+    
+}
+.imgesix p {
+    
+    padding-top:10px;
+    padding-bottom: 10px;
+    font-size:20px;
+    font-weight:300;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.imgesix img {
+    
+    
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-top: 5px;
+        object-fit: cover;
+
+}
+
+.contactinfo h2
+{
+    font-weight:700;
+    font-size:30px;
+    color:#008fd5 ;
+    padding-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.contactinfo p
+{
+    font-weight:300;
+    font-size:16px;
+    color:#fff;
+    padding-bottom:20px;
+     
+}
+.info i
+{
+    color:#fff;
+}
+.info span
+{
+    font-weight:300;
+    font-size:16px;
+    color:#fff;
+}
+.info span a
+{
+    text-decoration: none;
+    color:#1f5f8b;
+}
+
+.social i
+{
+    text-align: center;
+    width:35px;
+    height:35px;
+    color:#1f5f8b;
+    border: solid 1px #999;
+    background-color: transparent;
+}
+.social i:hover 
+{
+    color:#1f5f8b;
+    background-color:#fff;
+    border: solid 1px #1f5f8b;
+}
+
+.social
+{
+    padding-bottom:50px;
+}
+.ourdata .heading h2
+{
+     font-weight:700;
+    font-size:38px;
+    color:#008fd5 ;
+    position:relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.ourdata .heading p
+{
+    font-weight:300;
+    font-size:18px;
+    color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dataform .form-control
+{
+    border-radius: 0;
+    border: solid 1px #1f5f8b;
+    box-shadow: none;
+}
+.dataform input
+{
+    background-color: transparent;
+}
+
+.dataform textarea
+{
+    background-color: transparent;
+}
+.dataform .btn
+{
+    background-color: #008fd5 ;
+;
+    color:#fff;
+    box-shadow: none;
+    transition:all .3s ease;
+    padding:10px 15px;
+}
+footer
+{
+    background-color: #2a303b;
+}
+.last-section p
+{
+    color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo
+{
+    color:#1f5f8b;
+    opacity: 0.2;
+}
+hr
+{
+    background-color:#ccc;
+}
+
+.btnTop
+{
+    position:fixed;
+    bottom:10%;
+    right:5%;
+    background-color: #008fd5 ;
+
+    padding:10px;
+    border-radius:15px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 30px;
+}
+@media only screen and (max-width: 700px) {
+  .imgesix:hover , .imgeone:hover , .imgethree:hover , .imgetwo:hover , .imgefour:hover {
+    transform: none ;
+  }
+}

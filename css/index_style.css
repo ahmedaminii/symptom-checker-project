@@ -1,0 +1,554 @@
+*
+{
+    transition: all 1s;
+}
+
+.navbar
+{
+    background-color:#fff;
+    right:0;
+    left:0;
+    z-index:68455;
+    padding:0;
+    position:fixed;
+}
+.nav-link 
+{
+    color:#1f1f1f;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.nav-item:hover
+{
+    background-color:#008fd5;
+}
+.nav-item:hover .nav-link
+{
+    color:#fff;
+}
+.tab-pane p
+{
+    background-color: rgb(77,177,226);
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.tab-pane p a
+{
+    color: #fff;
+}
+
+.tab-pane p:hover 
+{
+    background-color: #fff;
+}
+.tab-pane p:hover a
+{
+    color: #333;
+}
+
+    
+
+.navbar-brand
+{
+    color:#008fd5;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-brand i
+{
+    color:#008fd5;
+}
+.dropdown-item 
+{
+    color:#1f1f1f;
+    background-color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+.dropdown-menu
+{
+    background-color:#fff;
+    border-color: #fff;
+    color:#1f1f1f;
+}
+
+.dropdown-item:hover
+{
+    color:#fff;
+    background-color:#008fd5;
+}
+/* end of nav bar*/
+
+/* start of foter*/
+.contactinfo h3
+{
+    font-weight:700;
+    font-size:18px;
+    color:#1f5f8b;
+    padding-bottom:20px;
+    font-family: 'Poppins', sans-serif;
+}
+.contactinfo p
+{
+    font-weight:300;
+    font-size:16px;
+    color:#fff;
+    padding-bottom:20px;
+     
+}
+.info i
+{
+    color:#fff;
+}
+.info span
+{
+    font-weight:300;
+    font-size:16px;
+    color:#fff;
+}
+.info span a
+{
+    text-decoration: none;
+    color:#1f5f8b;
+}
+
+.social i
+{
+    text-align: center;
+    width:35px;
+    height:35px;
+    color:#1f5f8b;
+    border: solid 1px #999;
+    background-color: transparent;
+}
+.social i:hover 
+{
+    color:#1f5f8b;
+    background-color:#fff;
+    border: solid 1px #1f5f8b;
+}
+
+.social
+{
+    padding-bottom:50px;
+}
+.ourdata .heading h2
+{
+     font-weight:700;
+    font-size:38px;
+    color:#008fd5;
+    position:relative;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.ourdata .heading p
+{
+    font-weight:300;
+    font-size:18px;
+    color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.dataform .form-control
+{
+    border-radius: 0;
+    border: solid 1px #008fd5;
+    box-shadow: none;
+}
+.dataform input
+{
+    background-color: transparent;
+}
+
+.dataform textarea
+{
+    background-color: transparent;
+}
+.dataform .btn
+{
+    background-color: #008fd5;
+    color:#fff;
+    box-shadow: none;
+    transition:all .3s ease;
+    padding:10px 15px;
+}
+footer
+{
+    background-color: #2a303b;
+}
+.last-section p
+{
+    color:#fff;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.logo
+{
+    color:#008fd5;
+    opacity: 0.2;
+}
+hr
+{
+    background-color:#ccc;
+}
+/*btnTop*/
+.btnTop
+{
+    position:fixed;
+    bottom:10%;
+    right:5%;
+    background-color:#008fd5;
+    padding:10px;
+    border-radius:15px;
+    cursor: pointer;
+    color:#fff;
+    font-size: 30px;
+}
+/* end of foter*/
+/* start of chcker*/
+.dropdown-item:hover 
+{
+    background-color:#fff;
+    color:#008fd5;
+}
+.dropdown-item:hover a 
+{
+    color:#008fd5;
+}
+.check-container h2 
+{
+    font-family: 'Poppins', sans-serif;
+    color:#008fd5;
+    font-size:30px;
+    font-weight:bold;
+    text-align: center;
+}
+.check-container
+{
+    overflow: hidden
+}
+.check-nav
+{
+    background-color: #008fd5
+}
+.check-nav-container
+{
+    margin: 10px;
+    padding: 10px
+}
+.check-nav-container select
+{
+    background-color: #008fd5;
+    border-radius: 5px
+}
+.check-nav-container input
+{
+    border-radius: 5px 
+}
+.check-nav-container .fas
+{
+   
+    font-size: 22
+    padding: 5px
+}
+
+.space
+{
+    background-color: #008fd5;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    font-size:30px;
+    font-weight:600;
+    text-align: center;
+    letter-spacing: 6px;
+    margin-bottom: 0px    
+}
+
+::placeholder
+{
+    color:#008fd5;
+     font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body-area
+{
+    position: relative;
+}
+
+.pic li
+{
+    list-style-type: none
+}
+.allImg
+{
+    position: relative;
+   
+}
+.circulatory
+{
+    position: absolute;
+    top: 51px;
+    left: 115px;
+}
+.circulatory img
+{
+    width:84px;
+    border-radius: 50%;
+}
+.system
+{
+    position: absolute;
+    top: 458px;
+    right: 25px;
+}
+.system img , .tract img , .immune img , .integumentary img , .lymphatic img , .nervous img , 
+ .musculoskeletal img , .respiratory img , .reproductive img , .urinary img
+{
+   width:84px; 
+}
+.tract
+{
+   position: absolute;
+   top: 222px;
+   right: 32px; 
+}
+.immune
+{
+  position: absolute;
+  top: 110px;
+  right: 62px;  
+}
+.integumentary
+{
+  position: absolute;
+  top: 570px;
+  right: 80px; 
+}
+.lymphatic
+{
+  position: absolute;
+  top: 335px;
+  right: 15px
+}
+.musculoskeletal
+{
+ position: absolute;
+ top: 560px;
+ left: 60px; 
+}
+.nervous
+{
+   position: absolute;
+  top: -2px;
+  right: 92px  
+}
+.respiratory
+{
+  position: absolute;
+  top: 168px;
+  left: 42px 
+}
+.reproductive
+{  
+  position: absolute;
+  top: 430px;
+  left: 16px 
+}
+.urinary
+{
+  position: absolute;
+  top: 290px;
+  left: 12px
+}
+@media (max-width: 1203px) {
+  .pic{
+      display: none;}
+    .allImg{margin-bottom: 40px;}
+    
+}
+
+
+.circulatory img:hover , .system img:hover , .tract img:hover , .immune img:hover , .integumentary img:hover , .lymphatic img:hover , .musculoskeletal img:hover ,  .nervous img:hover , .respiratory img:hover , .reproductive img:hover , .urinary img:hover
+
+{
+   transform:scale(1.1,1.1);
+    border-radius: 52%;
+}
+.pic a
+{   
+    text-decoration: none;
+}
+/* end of checker*/
+
+/* start of alphapet*/
+.alphapet li a
+{
+    
+    padding: 15px
+}
+.alphapet-content p
+{
+    border: 1px solid #13c5dd;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: none;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.card-body
+{
+    padding:0;
+    text-align: center;
+}
+.card-body  p
+{
+    border-bottom:solid 1px #ccc;
+    margin-bottom: 5px;
+    padding:5px 0 ; 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.card-body  p a
+{
+    color: #008fd5;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size:20px;
+    transition: all 1s;
+}
+.card-body p a:hover
+{
+   color:#333;
+    letter-spacing: 3px;
+}
+.check-nav-container
+{
+    display: flex;
+    padding: 5px
+}
+.option
+{
+   padding-right: 5px;
+    
+}
+.CHOOSE
+{
+   color: #008fd5 ;
+    background-color: #fff
+}
+.card-body a , .dropdown-item a , .quiz-1 a , .quiz-3 a , .quiz-5 a , .alphapet-content a
+{
+    text-decoration: none;
+}
+#checker
+{
+    background-color: rgba(77,177,226,0.6)
+}
+
+.jo
+{
+ color: #fff !important;
+    margin-top: 6px;
+    font-size: 22px
+}
+.jo:hover
+{
+ color: #008fd5 !important;
+ background-color: white;
+    padding: 3px;
+}
+.btn-link
+{
+    text-decoration: none !important;
+    font-family: 'Source Sans Pro', sans-serif !important;
+    color: #008fd5 !important ;
+    font-weight: 800 !important;
+   
+}
+.btn-link
+{
+    background-color: #red!important;
+}
+.nav-pills li a 
+{
+    color: #008fd5;
+    font-weight: bold;
+}
+#Quiz h2
+{
+     font-family: 'Charm', cursive;
+    color:#008fd5;
+    font-size:30px;
+    font-weight:600;
+    text-align: center 
+}
+.quiz-1
+{
+   background-color: 008fd5;
+    padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.quiz-1  a
+{
+   padding: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+.quiz-1  a:hover
+{
+   color: #333
+}
+.Reflux
+{
+    color: #1f5f8b;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+.tabl a
+{
+    color: #008fd5
+}
+.problem p
+{
+   background-color: transparent;
+     color: #333;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.problem p:hover
+{
+   background-color: transparent;
+     color: black
+}
+.problem h5
+{
+    background-color:rgba(0, 143, 213,.5);
+    color: #fff;
+    padding: 10px; 
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.problem h5 a
+{
+    text-decoration: none;
+    color: #fff  
+}
+.problem h4
+{
+    color: #008fd5;
+    padding: 10px; 
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* h =#1f5f8b;
+p=font-family: 'Source Sans Pro', sans-serif;
+h=font-family: 'Poppins', sans-serif;
+background:linear-gradient(133deg,#00b4ff,#9fe8fa);
+#13c5dd
+*/
